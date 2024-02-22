@@ -97,7 +97,7 @@ function CreateOrder() {
               >
                 <svg className="h-[1.5rem] w-[1.3rem] fill-sky-500">
                   {" "}
-                  <use xlinkHref="/sprite.svg#icon-location"></use>
+                  <use xlinkHref="./sprite.svg#icon-location"></use>
                 </svg>
               </button>
             )}
@@ -166,7 +166,7 @@ export async function Action({ request }) {
 
   store.dispatch(clearCart()); //just to clear the cart after the order has been made do not overuse it
 
-  return redirect(`/pizza-menu/order/${newOrder.id}`);
+  return redirect(`/pizza-app/order/${newOrder.id}`);
 }
 
 export default CreateOrder;
