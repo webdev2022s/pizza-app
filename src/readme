@@ -1,0 +1,3 @@
+npm i eslint vite-plugins-eslint eslint-config-react-app --save-dev
+
+npm i react-router-dom@6
