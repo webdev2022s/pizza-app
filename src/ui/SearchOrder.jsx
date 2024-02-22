@@ -8,7 +8,7 @@ export default function SearchOrder() {
   const handleFrom = (e) => {
     e.preventDefault();
     if (!query) return;
-    navigate_URL(`/order/${query}`);
+    navigate_URL(`/pizza-app/order/${query}`);
     setQuery("");
   };
   return (

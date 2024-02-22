@@ -29,7 +29,8 @@ function Order() {
   const fetcher = useFetcher();
 
   useEffect(() => {
-    if (!fetcher.data && fetcher.state === "idle") fetcher.load("/menu");
+    if (!fetcher.data && fetcher.state === "idle")
+      fetcher.load("/pizza-app/menu");
   }, [fetcher]);
 
   return (

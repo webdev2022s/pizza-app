@@ -18,7 +18,7 @@ export default function Home() {
           </span>
         </h1>
         {username ? (
-          <Button type="primary" to={"/menu"}>
+          <Button type="primary" to={"/pizza-app/menu"}>
             Start Ordering
           </Button>
         ) : (

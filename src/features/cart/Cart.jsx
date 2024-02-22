@@ -21,7 +21,7 @@ function Cart() {
 
   return (
     <div className="p-2">
-      <LinkButton to="/menu">&larr; Bact to menu</LinkButton>
+      <LinkButton to="/pizza-app/menu">&larr; Bact to menu</LinkButton>
       <h2 className="mt-7 text-xl font-semibold">
         Your cart, <span className="capitalize">{username}</span>
       </h2>
@@ -31,7 +31,7 @@ function Cart() {
         ))}
       </ul>
       <div className="mt-8 space-x-5">
-        <Button type="primary" to={"/order/new"}>
+        <Button type="primary" to={"/pizza-app/order/new"}>
           Order Pizza
         </Button>
         <Button onClick={handleClearCart} type={"clearB"}>

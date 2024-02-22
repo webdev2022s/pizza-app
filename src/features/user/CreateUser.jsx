@@ -14,7 +14,7 @@ function CreateUser() {
   const handleForm = (e) => {
     if (!username.name) return;
     dispatch(updateName(username.name));
-    navigate("/menu");
+    navigate("/pizza-app/menu");
     e.preventDefault();
   };
 
