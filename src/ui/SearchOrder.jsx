@@ -25,7 +25,7 @@ export default function SearchOrder() {
       />
       <button>
         <svg className="h-[1rem] w-[1.3rem] fill-sky-500">
-          <use xlinkHref="/sprite.svg#icon-magnifying-glass"></use>
+          <use xlinkHref="./sprite.svg#icon-magnifying-glass"></use>
         </svg>
       </button>
     </form>

@@ -166,7 +166,7 @@ export async function Action({ request }) {
 
   store.dispatch(clearCart()); //just to clear the cart after the order has been made do not overuse it
 
-  return redirect(`/order/${newOrder.id}`);
+  return redirect(`/pizza-menu/order/${newOrder.id}`);
 }
 
 export default CreateOrder;
