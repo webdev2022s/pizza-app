@@ -97,7 +97,7 @@ function CreateOrder() {
               >
                 <svg className="h-[1.5rem] w-[1.3rem] fill-sky-500">
                   {" "}
-                  <use xlinkHref="./sprite.svg#icon-location"></use>
+                  <use xlinkHref="../sprite.svg#icon-location"></use>
                 </svg>
               </button>
             )}
